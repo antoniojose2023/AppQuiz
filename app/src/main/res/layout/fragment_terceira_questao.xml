@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvNomeUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Olá Fulano"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:textAlignment="textEnd"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qual dos seguintes sistemas operacionais é desenvolvido pela Apple Inc.?"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:textAlignment="center"/>
+
+    <RadioGroup
+        android:id="@+id/butto_rg_grupo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rgQuestoes1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Windows"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"/>
+
+        <RadioButton
+            android:id="@+id/rgQuestoes2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ubuntu"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"/>
+
+        <RadioButton
+            android:id="@+id/rgQuestoes3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="macOS"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"/>
+
+        <RadioButton
+            android:id="@+id/rgQuestoes4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"/>
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btProximo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Próximo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3 de 3"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="8dp"
+        android:textAlignment="textEnd"
+        />
+
+</LinearLayout>
